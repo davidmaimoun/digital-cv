@@ -1,0 +1,46 @@
+:root {
+   --shadow: 0px 0px 5px lightgrey;
+   --padding: 12px;
+   --color-bg: #F6FBF4;
+   --color-main: #2C446F;
+   --color-second: rgb(0, 190, 180);
+   --color-light: rgb(253, 248, 249);
+
+}
+
+
+
+* {
+   /* font-family: 'Trebuchet MS', sans-serif; */
+   /* background-color: var(--color-bg); */
+   color: var(--color-main);
+}
+
+a {
+   text-decoration: none;
+   font-weight: 500;
+}
+
+a:hover {
+   color: #d33682 !important;
+   text-decoration: none;
+}
+
+ul {list-style-type: none;}
+
+hr {
+   margin-top: 0px;
+   margin-bottom: 5%;
+}
+
+.date {
+   color: var(--color-second);
+}
+
+img {
+   border-radius: 5px;
+   /* box-shadow: var(--shadow); */
+}
+
+
+ 
