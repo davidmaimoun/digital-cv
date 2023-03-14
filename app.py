@@ -18,11 +18,11 @@ DESCRIPTION = "Bioinformatician & Data Analyst"
 EMAIL = "davidmaimoun@hotmail.com"
 PHONE = "0527810255"
 PAGE_ICON = ":wave:"
-URL_PROJECT1 = ""
-URL_PROJECT2 = ""
-URL_PROJECT3 = ""
-URL_PROJECT4 = ""
-URL_PROJECT5 = ""
+URL_PROJECT1 = "https://backtrack.streamlit.app/"
+URL_PROJECT2 = "https://movie-finder.streamlit.app/"
+URL_PROJECT3 = "https://heartdisease-pred.streamlit.app/"
+URL_PROJECT4 = "https://diabetes-pred.streamlit.app/"
+URL_PROJECT5 = "https://cryptoprice.streamlit.app/"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -254,12 +254,12 @@ with st.container():
       )
       st.markdown("<p class='date'>Data Visualization & Manipulation > Epidemiology</p>", unsafe_allow_html=True)
       st.write(
-            """
+            f"""
             Bacteria called Neisseria meningitidis cause meningococcal disease.
             Three of these serogroups (types) cause most of the illness and death.
             It is vital to detect them as soon as possible, and check their distribution/spread in the country.
             <br>
-            <a target="_self" href={URL_PROJECT1}>
+            <a target="_blank" href={URL_PROJECT1}>
                <button>
                   Launch BacTrack! 
                </button>
@@ -284,15 +284,14 @@ with st.container():
       """,unsafe_allow_html=True
       )
       st.markdown("<p class='date'>Suggestion Algorithm</p>", unsafe_allow_html=True)
-      st.write(
-            """
+      st.write(f"""
             If you are tired to spend the whole evening looking for a movie to see, try this CLAPP!
             Enter a movie title and the app will suggest you more movies based on similar 
             genre. 
             You can filter a search by director name, genre and released date if you want more
             accuracies... Enjoy your evening!
             <br>
-            <a target="_self" href={URL_PROJECT2}>
+            <a target='_blank' href={URL_PROJECT2}>
                <button>
                   Launch CLAPP! 
                </button>
@@ -317,12 +316,12 @@ with st.container():
       )
       st.markdown("<p class='date'>Machine Learning > Logistic Regression</p>", unsafe_allow_html=True)
       st.write(
-            """
+            f"""
             As a new researcher in the cardiology department, I was stunted to see how many people
             live with heart disease, knowing that stroke could strike at any time.
             Here, I used the power of Machine Learning to predict the chance somebody get a stroke.
             <br>
-            <a target="_self" href={URL_PROJECT3}>
+            <a target="_blank" href={URL_PROJECT3}>
                <button>
                   Launch H.D.Predictor! 
                </button>
@@ -348,13 +347,13 @@ with st.container():
 
    with col1:
       st.write(
-            """
+            f"""
             Diabetes, another disease that affects millions people worlwide, is a major cause of blindness, 
             kidney failure, heart attacks, stroke and lower limb amputation.
             In this project, I am using the Support Vector Machine model to build a system that 
             can predict whether a person has diabetes or not. 
             <br>
-               <a target="_self" href={URL_PROJECT4}>
+               <a target="_blank" href={URL_PROJECT4}>
                   <button>
                      Launch Diabetes Predictor! 
                   </button>
@@ -378,12 +377,11 @@ with st.container():
       """,unsafe_allow_html=True
       )
       st.markdown("<p class='date'>Data Manipulation > Finance & Crypto</p>", unsafe_allow_html=True)
-      st.write(
-            """
+      st.write(f"""
             I wanted to test the power of Python and Streamlit to check in real time
             the price of the different cryptocurrencies.
             <br>
-            <a target="_self" href={URL_PROJECT5}>
+            <a target="_blank" href={URL_PROJECT5}>
                <button>
                   Launch BCP App! 
                </button>
