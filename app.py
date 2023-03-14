@@ -34,6 +34,7 @@ st.write("""
       letter-spacing: 1px;
       margin-bottom: 8px;
    }
+  
    
    div[data-testid="stVerticalBlock"] > [style*="flex-direction: column;"] > [data-testid="stVerticalBlock"] {
       box-shadow: 0 0 12px rgb(235,235,235);
@@ -41,7 +42,7 @@ st.write("""
       padding: 28px 18px;
    }
 
-   button {
+   .btn {
       color: rgb(45, 63, 113);
       background-color: white;
       border-radius: 3px;
@@ -50,9 +51,10 @@ st.write("""
       margin-top: 24px;
       transition: .1s;
    }
-   button:hover{
+   .btn:hover{
       background-color: rgb(45, 63, 113);
-      color: white;
+      color: white !important;
+      text-decoration: none;
 
    }
 
@@ -260,7 +262,7 @@ with st.container():
             It is vital to detect them as soon as possible, and check their distribution/spread in the country.
             <br>
             <a target="_blank" href={URL_PROJECT1}>
-               <button>
+               <button class='btn'>
                   Launch BacTrack! 
                </button>
             </a>
@@ -292,7 +294,7 @@ with st.container():
             accuracies... Enjoy your evening!
             <br>
             <a target='_blank' href={URL_PROJECT2}>
-               <button>
+               <button class='btn'>
                   Launch CLAPP! 
                </button>
             </a>
@@ -322,7 +324,7 @@ with st.container():
             Here, I used the power of Machine Learning to predict the chance somebody get a stroke.
             <br>
             <a target="_blank" href={URL_PROJECT3}>
-               <button>
+               <button class='btn'>
                   Launch H.D.Predictor! 
                </button>
             </a>
@@ -354,7 +356,7 @@ with st.container():
             can predict whether a person has diabetes or not. 
             <br>
                <a target="_blank" href={URL_PROJECT4}>
-                  <button>
+                  <button class='btn'>
                      Launch Diabetes Predictor! 
                   </button>
                </a>
@@ -382,7 +384,7 @@ with st.container():
             the price of the different cryptocurrencies.
             <br>
             <a target="_blank" href={URL_PROJECT5}>
-               <button>
+               <button class='btn'>
                   Launch BCP App! 
                </button>
             </a>
