@@ -271,7 +271,8 @@ with st.container():
          )
      
    with col2:
-         returnLottie("assets/project1.json")
+      st.markdown("<br>",unsafe_allow_html=True)
+      returnLottie("assets/project1.json")
 
    st.markdown("<br>",unsafe_allow_html=True)
 
@@ -302,6 +303,7 @@ with st.container():
             """,unsafe_allow_html=True
          )
    with col2:
+         st.markdown("<br>",unsafe_allow_html=True)
          returnLottie("assets/movie.json")
 
    st.markdown("<br>",unsafe_allow_html=True)
@@ -333,7 +335,8 @@ with st.container():
             """,unsafe_allow_html=True
          )
    with col2:
-         returnLottie("assets/data-analysis.json")
+      st.markdown("<br>",unsafe_allow_html=True)
+      returnLottie("assets/data-analysis.json")
 
    st.markdown("<br>",unsafe_allow_html=True)
 
@@ -363,6 +366,7 @@ with st.container():
             """,unsafe_allow_html=True
          )
    with col2:
+         st.markdown("<br>",unsafe_allow_html=True)
          returnLottie("assets/project2.json")
 
    st.markdown("<br>",unsafe_allow_html=True)
