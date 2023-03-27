@@ -20,9 +20,10 @@ PHONE = "0527810255"
 PAGE_ICON = ":wave:"
 URL_PROJECT1 = "https://backtrack.streamlit.app/"
 URL_PROJECT2 = "https://movie-finder.streamlit.app/"
-URL_PROJECT3 = "https://heartdisease-pred.streamlit.app/"
-URL_PROJECT4 = "https://diabetes-pred.streamlit.app/"
-URL_PROJECT5 = "https://cryptoprice.streamlit.app/"
+URL_PROJECT3 = "https://datavision.streamlit.app/"
+URL_PROJECT4 = "https://heartdisease-pred.streamlit.app/"
+URL_PROJECT5 = "https://diabetes-pred.streamlit.app/"
+URL_PROJECT6 = "https://cryptoprice.streamlit.app/"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -312,7 +313,38 @@ with st.container():
       st.markdown(
       """
          <h5>
-            Project 3: Heart Disease Predictor
+            Project 3: DataVision (🚧 in development)
+         </h5>
+      """,unsafe_allow_html=True
+      )
+      st.markdown("<p class='date'>Data Manipulation & Data Visualization</p>", unsafe_allow_html=True)
+      st.write(
+            """
+            This App will help you to get informations on your dataset.
+            Manipulating your data, handling Null values, drawing charts like line, bar, pie charts, 
+            geographical plots and even buildind Machine Learning Model, without a line of code! All
+            in one nice and user friendly app.
+            <br>
+            <a target="_blank" href={URL_PROJECT3}>
+               <button class='btn'>
+                  Launch H.D.Predictor! 
+               </button>
+            </a>
+            """,unsafe_allow_html=True
+         )
+   with col2:
+         returnLottie("assets/data-analysis.json")
+
+   st.markdown("<br>",unsafe_allow_html=True)
+
+# Project 4
+with st.container():
+   col1, col2 = st.columns([3,1])
+   with col1:
+      st.markdown(
+      """
+         <h5>
+            Project 4: Heart Disease Predictor
          </h5>
       """,unsafe_allow_html=True
       )
@@ -335,12 +367,12 @@ with st.container():
 
    st.markdown("<br>",unsafe_allow_html=True)
 
-# Project 4
+# Project 5
 with st.container():
    st.markdown(
    """
       <h5>
-         Project 4: Diabetes Predictor
+         Project 5: Diabetes Predictor
       </h5>
    """,unsafe_allow_html=True
    )
@@ -367,14 +399,14 @@ with st.container():
 
    st.markdown("<br>",unsafe_allow_html=True)
 
-# Project 5
+# Project 6
 with st.container():
    col1, col2 = st.columns([3,1])
    with col1:
       st.markdown(
       """
          <h5>
-            Project 5: Binance Crypto Price
+            Project 6: Binance Crypto Price
          </h5>
       """,unsafe_allow_html=True
       )
