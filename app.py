@@ -329,7 +329,7 @@ with st.container():
             <br>
             <a target="_blank" href={URL_PROJECT3}>
                <button class='btn'>
-                  Launch H.D.Predictor! 
+                  Launch Data Vision! 
                </button>
             </a>
             """,unsafe_allow_html=True
@@ -358,7 +358,7 @@ with st.container():
             live with heart disease, knowing that stroke could strike at any time.
             Here, I used the power of Machine Learning to predict the chance somebody get a stroke.
             <br>
-            <a target="_blank" href={URL_PROJECT3}>
+            <a target="_blank" href={URL_PROJECT4}>
                <button class='btn'>
                   Launch H.D.Predictor! 
                </button>
@@ -391,7 +391,7 @@ with st.container():
             In this project, I am using the Support Vector Machine model to build a system that 
             can predict whether a person has diabetes or not. 
             <br>
-               <a target="_blank" href={URL_PROJECT4}>
+               <a target="_blank" href={URL_PROJECT5}>
                   <button class='btn'>
                      Launch Diabetes Predictor! 
                   </button>
@@ -419,7 +419,7 @@ with st.container():
             I wanted to test the power of Python and Streamlit to check in real time
             the price of the different cryptocurrencies.
             <br>
-            <a target="_blank" href={URL_PROJECT5}>
+            <a target="_blank" href={URL_PROJECT6}>
                <button class='btn'>
                   Launch BCP App! 
                </button>
