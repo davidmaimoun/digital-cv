@@ -327,7 +327,7 @@ with st.container():
             geographical plots and even buildind Machine Learning Model, without a line of code! All
             in one nice and user friendly app.
             <br>
-            <a target="_blank" href={URL_PROJECT3}>
+            <a target="_blank" href={URL_PROJECT2}>
                <button class='btn'>
                   Launch Data Vision ! 
                </button>
