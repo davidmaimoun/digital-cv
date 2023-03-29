@@ -264,7 +264,7 @@ with st.container():
             <br>
             <a target="_blank" href={URL_PROJECT1}>
                <button class='btn'>
-                  Launch BacTrack! 
+                  Launch BacTrack ! 
                </button>
             </a>
             """,unsafe_allow_html=True
@@ -297,7 +297,7 @@ with st.container():
             <br>
             <a target='_blank' href={URL_PROJECT2}>
                <button class='btn'>
-                  Launch CLAPP! 
+                  Launch CLAPP ! 
                </button>
             </a>
             """,unsafe_allow_html=True
@@ -329,7 +329,7 @@ with st.container():
             <br>
             <a target="_blank" href={URL_PROJECT3}>
                <button class='btn'>
-                  Launch Data Vision! 
+                  Launch Data Vision ! 
                </button>
             </a>
             """,unsafe_allow_html=True
@@ -360,7 +360,7 @@ with st.container():
             <br>
             <a target="_blank" href={URL_PROJECT4}>
                <button class='btn'>
-                  Launch H.D.Predictor! 
+                  Launch H.D.Predictor ! 
                </button>
             </a>
             """,unsafe_allow_html=True
@@ -393,7 +393,7 @@ with st.container():
             <br>
                <a target="_blank" href={URL_PROJECT5}>
                   <button class='btn'>
-                     Launch Diabetes Predictor! 
+                     Launch Diabetes Predictor ! 
                   </button>
                </a>
                """,unsafe_allow_html=True
@@ -421,7 +421,7 @@ with st.container():
             <br>
             <a target="_blank" href={URL_PROJECT6}>
                <button class='btn'>
-                  Launch BCP App! 
+                  Launch BCP App ! 
                </button>
             </a>
             """,unsafe_allow_html=True
