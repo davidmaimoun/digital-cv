@@ -295,7 +295,7 @@ with st.container():
             You can filter a search by director name, genre and released date if you want more
             accuracies... Enjoy your evening!
             <br>
-            <a target='_blank' href={URL_PROJECT3}>
+            <a target='_blank' href={URL_PROJECT2}>
                <button class='btn'>
                   Launch CLAPP ! 
                </button>
@@ -321,7 +321,7 @@ with st.container():
       )
       st.markdown("<p class='date'>Data Manipulation & Data Visualization</p>", unsafe_allow_html=True)
       st.write(
-            """
+            f"""
             This App will help you to get informations on your dataset.
             Manipulating your data, handling Null values, drawing charts like line, bar, pie charts, 
             geographical plots and even buildind Machine Learning Model, without a line of code! All
