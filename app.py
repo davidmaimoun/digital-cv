@@ -8,7 +8,7 @@ from streamlit_lottie import st_lottie
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV David Maimoun.pdf"
+resume_file = current_dir / "assets" / "CV David Maimoun.docx"
 profile_pic = current_dir / "assets" / "profile-pic.png"
 
 # --- GENERAL SETTINGS ---
