@@ -14,7 +14,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | David Maimoun"
 NAME = "David Maimoun"
-DESCRIPTION = "Bioinformatician & Data Scientist"
+DESCRIPTION = "Programmer"
 EMAIL = "davidmaimoun@hotmail.com"
 PHONE = "0527810255"
 PAGE_ICON = ":wave:"
